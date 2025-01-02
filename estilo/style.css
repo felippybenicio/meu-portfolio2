@@ -167,7 +167,7 @@ img.tradução {
 
 menu#horizontal {
     background-color:var(--secundario);
-    width: 96.5dvw;
+    width: 90dvw;
     height: auto;
     padding: 15px;
     display: flex;
@@ -176,7 +176,8 @@ menu#horizontal {
     box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.349);
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: 3%;
+    border-radius: 0px 0px 15px 15px ;
     z-index: 1000;
 }
 
@@ -417,7 +418,7 @@ p.ajudar {
 
 
 footer {
-    height: 500px;
+    height: auto;
 }
 
 nav {

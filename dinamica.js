@@ -129,15 +129,18 @@ function ajuda() {
 }
 
 const menuHorizontal = document.getElementById('horizontal')
-const distancia = 614
+const distancia = 593
+
+const main = window.document.getElementsByClassName('main')
 
 document.addEventListener("scroll",
   function() {
 
     if(window.scrollY < distancia) {
       menuHorizontal.style.display = "none"
-      
-    } else {
+    } else if (main.style.width = '400') { 
+      menuHorizontal.style.display = "none"
+    }else {
       menuHorizontal.style.display = "flex"
     }
   })

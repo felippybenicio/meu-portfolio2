@@ -22,18 +22,17 @@ function fechar() {
 const idioma = document.getElementById('idioma')
 const aside = document.getElementById('traduzir')
 
-aside.addEventListener('mouseout', sair)
-aside.addEventListener('mouseenter', entrar)
+aside.addEventListener ('click', clicar)
 
-function entrar() {
-    idioma.style.display = 'flex'
-    idioma.style.justifyContent = 'space-evenly'
-    idioma.style.animation = '.5s' 
-}
+  function clicar() {
 
-function sair() {
-    idioma.style.display = 'none'
-}
+      idioma.style.display = 'flex'
+  }
+
+
+
+
+
 
 //textos
 let texto1 = document.getElementById('TextoRecrutador')
@@ -67,7 +66,7 @@ function paraRecrutar() {
 
       if (posiçãoAtual >= posiçãoNecessaria) {
         window.scrollTo({
-          top: 1850, // Distância a rolar
+          top: 1790, // Distância a rolar
           behavior: "smooth", // Rolagem suave
         })
       }
@@ -88,7 +87,7 @@ function paraFreelancer() {
 
     if (posiçãoAtual >= posiçãoNecessaria) {
         window.scrollTo({
-          top: 1850, // Distância a rolar
+          top: 1790, // Distância a rolar
           behavior: "smooth", // Rolagem suave
         })
     }

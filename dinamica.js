@@ -26,7 +26,6 @@ const aside = document.getElementById('traduzir')
 aside.addEventListener ('click', clicar)
 
   function clicar() {
-
       idioma.style.display = 'flex'
   }
 

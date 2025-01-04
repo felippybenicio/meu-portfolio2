@@ -60,13 +60,12 @@
         text-align: center;
         width: 316px;
         padding: 0px;
-        margin: 50px;
-        margin-bottom: 100px;
+        margin: 100px auto;
         transition: 1s;
     }
 
     p#resumo {
-        margin: 108px 0px 0px 0px;
+        margin: 145px 0px 0px 0px;
         padding: 42px;
         padding-right: 146px;
         width: 207px;

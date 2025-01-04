@@ -426,9 +426,10 @@ p.ajudar {
 
 footer {
     background-color: var(--secundario);
-    height: 500px;
+    height: auto;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+
 }
 
 nav {
@@ -506,6 +507,10 @@ nav img:hover {
 #git {
     position: absolute;
     left: 240px;
+}
+
+footer p {
+    margin: 25px;
 }
 
 

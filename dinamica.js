@@ -1,3 +1,4 @@
+
 //sanduiche
 
 const sandwich = window.document.getElementById('sanduiche')
@@ -100,46 +101,67 @@ clicado
 console.log(window.scrollY)
 
 function home() {
-  window.scrollTo({
-  top: 0, // Distância a rolar
-  behavior: "smooth", // Rolagem suave
-  })
+    window.scrollTo({
+    top: 0, // Distância a rolar
+    behavior: "smooth", // Rolagem suave
+    })
 }
 
 function projetos() {
-  window.scrollTo({
-  top: 614, // Distância a rolar
-  behavior: "smooth", // Rolagem suave
-  })
+  if (innerWidth = 930) {
+    window.scrollTo({
+    top: 630,
+    behavior: "smooth",
+    })
+  } else {
+    window.scrollTo({
+    top: 614,
+    behavior: "smooth",
+    })
+  }
 }
 
 function sobreMim() {
-  window.scrollTo({
-  top: 1255, // Distância a rolar
-  behavior: "smooth", // Rolagem suave
-  })
+  if (innerWidth = 930) {
+    window.scrollTo({
+    top: 1255,
+    behavior: "smooth",
+    })
+  } else {
+    window.scrollTo({
+    top: 1255,
+    behavior: "smooth",
+    })
+  }
 }
 
 function ajuda() {
-  window.scrollTo({
-  top: 1925, // Distância a rolar
-  behavior: "smooth", // Rolagem suave
-  })
+  if (innerWidth = 930) {
+    window.scrollTo({
+    top: 2230,
+    behavior: "smooth",
+    })
+  } else {
+    window.scrollTo({
+    top: 1255,
+    behavior: "smooth",
+    })
+  }
 }
 
 const menuHorizontal = document.getElementById('horizontal')
 const distancia = 593
 
-const main = window.document.getElementsByClassName('main')
-
 document.addEventListener("scroll",
-  function() {
-
+function() {
+  if (innerWidth <= 930) {
+    menuHorizontal.style.display = "none"
+  }else {
     if(window.scrollY < distancia) {
-      menuHorizontal.style.display = "none"
-    } else if (main.style.width = '400') { 
       menuHorizontal.style.display = "none"
     }else {
       menuHorizontal.style.display = "flex"
     }
-  })
+  }
+})
+

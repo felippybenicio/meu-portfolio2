@@ -140,6 +140,7 @@
 
     main#comoAjudar {
         height: auto;
+        margin-bottom: 0px;
     }
 
     button.textos01 {
@@ -154,5 +155,24 @@
     p.ajudar {
         margin: 25px;
         height: auto;
+    }
+
+    footer {
+        width: 400px;
+        margin: auto;
+    }
+
+    nav {
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    nav h2 {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+
+    div.links {
+        margin-top: -55px;
     }
 }

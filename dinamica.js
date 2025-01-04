@@ -64,12 +64,19 @@ function paraRecrutar() {
     recrutador02.style.display = 'block'
     freelancer02.style.display = 'block'
 
-      if (posiçãoAtual >= posiçãoNecessaria) {
+    if (posiçãoAtual >= posiçãoNecessaria) {
+      if (innerWidth <= 930) {
         window.scrollTo({
-          top: 1790, // Distância a rolar
-          behavior: "smooth", // Rolagem suave
+          top: 2600, 
+          behavior: "smooth",
+          })
+      } else {
+        window.scrollTo({
+        top: 1790, 
+        behavior: "smooth",
         })
       }
+    }
       
     this.classList.add("clicado")
     freelancer02.classList.remove ("clicado")
@@ -84,13 +91,20 @@ function paraFreelancer() {
 
     recrutador02.style.display = 'block'
     freelancer02.style.display = 'block'
-
-    if (posiçãoAtual >= posiçãoNecessaria) {
-        window.scrollTo({
-          top: 1790, // Distância a rolar
-          behavior: "smooth", // Rolagem suave
-        })
-    }
+    
+      if (posiçãoAtual >= posiçãoNecessaria) {
+        if (innerWidth <= 930) {
+          window.scrollTo({
+            top: 2600, 
+            behavior: "smooth",
+            })
+        } else {
+          window.scrollTo({
+          top: 1790, 
+          behavior: "smooth",
+          })
+        }
+      }
 
     this.classList.add ("clicado")
     recrutador02.classList.remove("clicado")
@@ -109,7 +123,7 @@ function home() {
 function projetos() {
   if (innerWidth = 930) {
     window.scrollTo({
-    top: 630,
+    top: 650,
     behavior: "smooth",
     })
   } else {
@@ -123,7 +137,7 @@ function projetos() {
 function sobreMim() {
   if (innerWidth = 930) {
     window.scrollTo({
-    top: 1255,
+    top: 1600,
     behavior: "smooth",
     })
   } else {
@@ -137,7 +151,7 @@ function sobreMim() {
 function ajuda() {
   if (innerWidth = 930) {
     window.scrollTo({
-    top: 2230,
+    top: 2600,
     behavior: "smooth",
     })
   } else {

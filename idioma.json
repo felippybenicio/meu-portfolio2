@@ -1,0 +1,14 @@
+{
+    "en": {
+        "titulo": "My portfolio",
+
+        "h1": "I’m a full-stack developer, bringing performance, design, and functionality together in a single codebase!"
+
+    },
+
+    "es": {
+        "titulo": "Mi portfolio",
+
+        "h1": "Soy desarrollador full-stack, combinando rendimiento, diseño y funcionalidad en un solo código."
+    }
+}

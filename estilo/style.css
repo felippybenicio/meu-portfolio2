@@ -22,7 +22,6 @@ html, body {
     background-color: var(--pricipal);
     color: white;
     height: 100dvh;
-    position: relative;
     cursor: url("imagens/cursor-transparente.webp"), auto;
     
 
@@ -43,6 +42,7 @@ header {
     overflow: hidden;
     display: flex;
     flex-flow: row wrap;
+    position: relative;
 }
 
 i#X, i#sanduiche {

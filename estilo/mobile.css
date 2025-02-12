@@ -23,6 +23,7 @@
         position: fixed;
         z-index: 1000;
     }
+    
     i#sanduiche {
         font-size: 2em;
         margin-left: 160px; 
@@ -41,25 +42,27 @@
         position: relative;
     }
 
-    
-
     i#X {
         display: block;
         font-size: 2em;
         font-weight: bolder;
         cursor: pointer;
     }
-
-
+     div.fixado {
+        position: fixed;
+        background-color: var(--secundario);
+        height: 100vh;
+        padding: 25px;
+     }
 
     menu#vertical {
-        background-color: var(--secundario);
-        padding: 25px;
-        position: absolute;
+        
+        position: absolute ;
         right: 0px;
         display: none;
-        position: fixed;
         z-index: 1000;
+        
+        
     }
 
     #vertical li {
@@ -179,6 +182,7 @@
     footer {
         width: 400px;
         margin: auto;
+        flex-flow: column nowrap;
     }
 
     nav {
@@ -187,8 +191,12 @@
     }
 
     nav h2 {
-        padding-top: 0px;
-        padding-bottom: 45px;
+        padding: 0px 0px 70px 0px;
+    }
+
+    footer p  {
+        margin: 50px 35px;
+        font-size: 1em;
     }
 
     div.links {

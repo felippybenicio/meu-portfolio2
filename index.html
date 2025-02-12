@@ -26,38 +26,41 @@
 
         <img src="imagens/foto minha social.jpg" alt="foto de mim" id="eu">
 
-        <menu id="vertical" class="menu">
-            <i class="material-icons" id="X" onclick="fechar()">close</i>
-            <ul>
-                <li class="vertical" id="home" onclick="home()">
-                    <i class="material-icons">home</i>
-                    <button class="menu" id="H">Home</button> <br>
-                </li>
-                <li class="vertical" id="projetos" onclick="projetos()">
-                    <i class="material-icons" id="projetos">description</i>
-                    <button class="menu" id="P">Meus Projetos</button> <br>
-                </li>
-                <li class="vertical" id="sobreMim" onclick="sobreMim()">
-                    <i class="material-icons">face_6</i>
-                    <button class="menu" id="S">Sobre Mim</button> <br>
-                </li>
-            
-                <li class="vertical" id="ajuda" onclick="ajuda()">
-                    <i class="material-icons">question_mark</i>
-                    <button class="menu" id="A">como posso te ajudar?</button>
-                </li>
-            </ul>
-            <aside id="traduzir" onclick="clicar()">
-                <div id="idioma">
-                    <a id="ingles" onclick="ingles()"><abbr title="Ingles" class="idioma"><span class="flag-icon flag-icon-us" ></span></abbr></a>
-
-                    <a id="espanhol" onclick="espanhol()"><abbr title="Español"  class="idioma"><span class="flag-icon flag-icon-es" ></span></abbr></a>
-
-                    <a id="portugues" onclick="portugues"><abbr title="Portugês"  class="idioma"><span class="flag-icon flag-icon-br" ></span></abbr></a>
+        
+            <menu id="vertical" class="menu">
+                <div class="fixado">
+                    <i class="material-icons" id="X" onclick="fechar()">close</i>
+                    <ul>
+                
+                        <li class="vertical" id="home" onclick="home()">
+                            <i class="material-icons">home</i>
+                            <button class="menu" id="H">Home</button> <br>
+                        </li>
+                        <li class="vertical" id="projetos" onclick="projetos()">
+                            <i class="material-icons" id="projetos">description</i>
+                            <button class="menu" id="P">Meus Projetos</button> <br>
+                        </li>
+                        <li class="vertical" id="sobreMim" onclick="sobreMim()">
+                            <i class="material-icons">face_6</i>
+                            <button class="menu" id="S">Sobre Mim</button> <br>
+                        </li>
+                
+                        <li class="vertical" id="ajuda" onclick="ajuda()">
+                            <i class="material-icons">question_mark</i>
+                            <button class="menu" id="A">como posso te ajudar?</button>
+                        </li>
+                    </ul>
+                    <aside id="traduzir" onclick="clicar()">
+                        <div id="idioma">
+                            <a id="ingles" onclick="ingles()"><abbr title="Ingles" class="idioma"><span class="flag-icon flag-icon-us" ></span></abbr></a>
+                            <a id="espanhol" onclick="espanhol()"><abbr title="Español"  class="idioma"><span class="flag-icon flag-icon-es" ></span></abbr></a>
+                            <a id="portugues" onclick="portugues"><abbr title="Portugês"  class="idioma"><span class="flag-icon flag-icon-br" ></span></abbr></a>
+                        </div>
+                        <p id="idi">Idioma</p>
+                    </aside>
                 </div>
-                <p id="idi">Idioma</p>
-            </aside>
-            </menu>      
+            </menu>  
+                
     </header>
     <menu id="horizontal" class="menu">
         <div class="linkshori" id="home" onclick="home()">

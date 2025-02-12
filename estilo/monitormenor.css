@@ -21,6 +21,10 @@
         transition: 1s;
     }
 
+    section#habilidades, section#curriculo {
+        width: 300px;
+    }
+
     button.areas {
         padding: 7px 127px;
     }
